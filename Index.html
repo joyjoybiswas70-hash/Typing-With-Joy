@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Lab - Practice Your Skills</title>
+        <!--link css-->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Lab</h1>
+        <p class="subtitle">Practice your typing skills with real quotes - No login required!</p>
+        
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-value" id="wpm">0</span>
+                <span class="stat-label">WPM</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="accuracy">0%</span>
+                <span class="stat-label">Accuracy</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="errors">0</span>
+                <span class="stat-label">Errors</span>
+            </div>
+        </div>
+
+        <div class="difficulty-selector">
+            <button class="difficulty-btn active" data-difficulty="easy">Easy</button>
+            <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+            <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+        </div>
+
+        <div class="typing-area">
+            <div class="quote-display" id="quote-display"></div>
+            <div class="input-area">
+                <input type="text" id="typing-input" placeholder="Start typing the quote above..." autocomplete="off" autocapitalize="off" autocorrect="off">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="new-quote">New Quote</button>
+            <button class="btn btn-secondary" id="restart">Restart</button>
+        </div>
+    </div>
+    <!--link js-->
+    <script src="Script.js"></script>
+</body>
+</html>
